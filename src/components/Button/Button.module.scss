@@ -1,0 +1,24 @@
+.button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 700;
+    width: 40px;
+    margin: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: lightgreen;
+    }
+}
+.equal{
+    background-color: orangered;
+    width: 90px;
+}
+.ac{
+    background-color: white;
+    width: 100px;
+}
+.calculation{
+    background-color: rgb(121, 31, 98);
+}
