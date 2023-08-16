@@ -26,6 +26,7 @@ function Calculator() {
           result = eval(displayValue);
           console.log(result);
           if (isNaN(result)) {
+            setHasCalculated(true);
             setDisplayValue("Error");
           } else {
             setDisplayValue(result);
@@ -50,6 +51,7 @@ function Calculator() {
       }
     } catch {
       setDisplayValue("Error");
+      setHasCalculated(true);
     }
   };
 
