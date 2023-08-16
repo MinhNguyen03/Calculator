@@ -62,7 +62,7 @@ function Calculator() {
         readOnly
       />
       <div className={cx("button")}>
-        <Button content={"AC"} onClick={() => handleButtonClick("AC")} />
+        <Button ac content={"AC"} onClick={() => handleButtonClick("AC")} />
         <Button content={"DE"} onClick={() => handleButtonClick("DE")} />
         <Button content={"."} onClick={() => handleButtonClick(".")} />
         <Button
